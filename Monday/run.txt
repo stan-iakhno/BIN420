@@ -1,0 +1,1 @@
+mv contigs.fasta.metabat-bins-_-t_4_--verysensitive_--unbinned.1.fa out.1.fa

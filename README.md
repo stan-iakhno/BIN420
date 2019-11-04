@@ -14,7 +14,7 @@ Evaluation: A project report will be compulsory and must be submitted two weeks 
 
 Registration is closed
 
-Course website can be found here
+Course website can be found here: https://drive.google.com/drive/folders/1nZNHieN4rgNYjb8GvFrl2aOyp38Tx7ZN
 
 Lecturers: Lars G. Snipen (NMBU), Magnus Ø. Arntzen (NMBU), Live H. Hagen (NMBU), J. Chris Gaby (NMBU), and Francesco Delogu (NMBU)
 

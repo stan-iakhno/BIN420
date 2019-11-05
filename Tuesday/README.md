@@ -1,4 +1,4 @@
-The following link contains the the walkthrough of the morning session:
+ The following link contains the the walkthrough of the morning session:
 ```
 file:///C:/Users/stia/OneDrive%20-%20Norwegian%20University%20of%20Life%20Sciences/PhD_courses/BIN420/BIN420_tuesday_morning.html
 
@@ -18,9 +18,9 @@ contigs, and you may also use these if you for some reason did not (yet)
 have the results from the assembly part.
 
 First, start by creating a folder named |tuesday| in your |$HOME| folder. You can do this in RStudio, or from the Terminal by
-
-|mkdir tuesday|
-
+```
+mkdir tuesday
+```
 All scripts and results from today we put into this |$HOME/tuesday| folder.
 
 
@@ -65,12 +65,14 @@ and verify the file |prodigal.sh| is actually listed. If not, you are not either
 create the |prodigal| folder inside |$HOME/tuesday|.
 
 From the |$HOME/tuesday| folder you |sbatch|:
-
-|sbatch prodigal.sh|
-
+```
+sbatch prodigal.sh
+```
 To verify your job is running, inspect the queue:
 
-|squeue -u username|
+```
+squeue -u username
+```
 
 where you enter your actual username instead of |username|. The |prodgal| is superfast, and should be done within a couple of minutes.
 
@@ -96,18 +98,21 @@ tolerate |*| in the input at all. Thus, we need to
   * Discard all genes with an |*| inside
 
 Let us make a small R script for doing this:
-
-|library(tidyverse)
+```
+library(tidyverse)
 library(microseq)
 setwd("~/tuesday")
-
+```
 ## Reading files
+```
 ffn.tbl <- readFasta("prodigal/coding.ffn")                  ## reads coding file
 gff.tbl <- readGFF("prodigal/table.gff")                     ## reads GFF file
 faa.tbl <- readFasta("prodigal/proteins.faa") %>%            ## reads protein file
   mutate(Sequence = str_remove(Sequence, "\\*$"))            ## remove * at the ends
+```
 
 ## Filtering out genes with stop codon inside (if any)
+```
 has.stop.inside <- str_detect(faa.tbl$Sequence, "\\*")       ## detects proteins with *
 faa.tbl %>% 
   filter(!has.stop.inside) %>%                               ## discards proteins with *
@@ -118,9 +123,9 @@ ffn.tbl %>%
 gff.tbl %>% 
   filter(!has.stop.inside) %>%                               ## same filtering as above
   writeGFF(out.file = "prodigal/table_nostops.gff")|
-
+```
 |## [1] "gff.table written to prodigal/table_nostops.gff"|
-
+```
 Make a new R script (*File - New File - R Script*) and copy the code
 into it. Save it in your |$HOME/tuesday| folder.
 
@@ -135,7 +140,7 @@ There is one last piece of code that we want to add to the script above.
 Let us output also a small subset of 100 proteins. This we need below,
 to test the software |interproscan| that we will use for annotation. The annotations by |interproscan| takes some time, and it is nice to have a mini data set for testing
 first. Add these lines to the script above, and re-run:
-
+```
 |faa.tbl %>% 
   filter(!has.stop.inside) %>% 
   slice(1:100) %>%
@@ -148,7 +153,7 @@ gff.tbl %>%
   filter(!has.stop.inside) %>% 
   slice(1:100) %>%
   writeGFF(out.file = "prodigal/table_nostops_mini.gff")|
-
+```
 
 
 
@@ -164,7 +169,7 @@ You will hear more about annotations after lunch, but since the |interproscan| t
     2.1 The shell script
 
 Here is a small shell script for running |interproscan|, using our mini protein file from above:
-
+```
 |#!/bin/bash
 #SBATCH --ntasks=1               # Number of cores (CPUs, threads)
 #SBATCH --job-name=iprscan      # Sensible name for the job
@@ -180,7 +185,7 @@ INFILE=$HOME/tuesday/prodigal/proteins_nostops_mini.faa
 OUT_PREFIX=$HOME/tuesday/iprscan/proteins_nostops_mini
 
 interproscan.sh --input $INFILE --disable-precalc --applications CDD,HAMAP,Pfam,TIGRFAM --formats GFF3,TSV --iprlookup --goterms --pathways --cpu 8  --tempdir $TMPDIR --output-file-base $OUT_PREFIX
-|
+```
 
 Make a new shell script, and copy this code into it, and save it into your |$HOME/tuesday| folder as |iprscan.sh|. Let us have a brief look at the command line.
 
@@ -207,7 +212,9 @@ like to have when we start the other omics-studies later.
 
 Again, we run this by |sbatch|ing to SLURM:
 
-|sbatch iprscan.sh|
+```
+sbatch iprscan.sh
+```
 
 Since we use the mini file with only 25 proteins, this will take a short
 time to complete (few minutes). Later we will use the full protein file,
@@ -363,8 +370,8 @@ print(p3)|
 
 Once we have the annotation table for all genes (from |interproscan|) we may again mark which genes were annotated, and then add some color
 to the plot from above:
-
-|annot.tbl <- suppressMessages(read_delim("~/tuesday/annotations.txt", delim = "\t")) ## once this
+```
+annot.tbl <- suppressMessages(read_delim("~/tuesday/annotations.txt", delim = "\t")) ## once this
                                                                                      ## is available...
 prdgl.tbl %>% 
   mutate(Annotated = Tag %in% annot.tbl$Seqid) -> prdgl.tbl
@@ -374,8 +381,10 @@ p4 <- ggplot(prdgl.tbl, aes(x = Contig.length, y = Total.score)) +
   scale_x_log10() + scale_y_log10() +
   facet_wrap(~Annotated, nrow = 1)
 print(p4)|
-
-|## `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'|
+```
+```
+## `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'
+``` 
 
 The main trend is as expected, shorter contigs produce less reliable
 gene predictions, and a large number of un-annotated genes, even if

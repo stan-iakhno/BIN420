@@ -166,7 +166,7 @@ Build sbatch file:
 sbatch aligner.sh
 ```
 
-#Metagenome Binning 
+# Metagenome Binning 
 by Live Heldal Hagen Bin420 – November 2019
 
 

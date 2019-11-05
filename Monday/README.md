@@ -246,7 +246,7 @@ The input files are the bins in fasta format.
  
 
 Build sbatch file: 
-	>vi checkM.sh
+>vi checkM.sh
  
 	#!/bin/sh
 
@@ -266,7 +266,7 @@ Build sbatch file:
 #end of sbatch 
 
 Run sbatch: 
-	>sbatch checkM.sh
+>sbatch checkM.sh
 
 The output is a plot and a table with quality scores for each MAG. Take a look at the completeness and contamination columns. Are the MAGs of good quality?   
 

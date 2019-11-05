@@ -1,0 +1,352 @@
+##sequence-region NODE_32_length_88662_cov_470.213076_18 1 199
+NODE_32_length_88662_cov_470.213076_18	.	polypeptide	1	199	.	+	.	ID=NODE_32_length_88662_cov_470.213076_18;md5=877ff4e720a3b66e94b6fca3652b8fb6
+NODE_32_length_88662_cov_470.213076_18	TIGRFAM	protein_match	4	197	1.7E-88	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_18 4 197;Ontology_term="GO:0003677","GO:0006281","GO:0006310";ID=match$1506_4_197;signature_desc=recR: recombination protein RecR;Name=TIGR00615;status=T;Dbxref="InterPro:IPR000093"
+NODE_32_length_88662_cov_470.213076_18	CDD	protein_match	81	192	1.18355E-64	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_18 81 192;ID=match$1507_81_192;signature_desc=TOPRIM_recR;Name=cd01025;status=T;Dbxref="InterPro:IPR034137"
+NODE_32_length_88662_cov_470.213076_18	Pfam	protein_match	41	79	2.8E-17	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_18 41 79;ID=match$1508_41_79;signature_desc=RecR protein;Name=PF02132;status=T;Dbxref="InterPro:IPR023628"
+NODE_32_length_88662_cov_470.213076_18	Pfam	protein_match	81	172	2.6E-27	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_18 81 172;ID=match$1509_81_172;signature_desc=Toprim domain;Name=PF13662;status=T;Dbxref="InterPro:IPR006171"
+NODE_32_length_88662_cov_470.213076_18	Hamap	protein_match	1	199	111.898	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_18 1 199;Ontology_term="GO:0003677","GO:0006281","GO:0006310";ID=match$1510_1_199;signature_desc=Recombination protein RecR [recR].;Name=MF_00017;status=T;Dbxref="InterPro:IPR000093"
+##sequence-region NODE_32_length_88662_cov_470.213076_69 1 727
+NODE_32_length_88662_cov_470.213076_69	.	polypeptide	1	727	.	+	.	ID=NODE_32_length_88662_cov_470.213076_69;md5=25f5c7a1c1d455d22af1182eeb1f83e0
+NODE_32_length_88662_cov_470.213076_69	Pfam	protein_match	701	721	5.1E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_69 701 721;Ontology_term="GO:0000272","GO:0004553";ID=match$1538_701_721;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_69	Pfam	protein_match	667	687	1.2E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_69 667 687;Ontology_term="GO:0000272","GO:0004553";ID=match$1538_667_687;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_69	Pfam	protein_match	536	657	2.9E-44	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_69 536 657;Ontology_term="GO:0030246";ID=match$1539_536_657;signature_desc=Carbohydrate binding module (family 6);Name=PF03422;status=T;Dbxref="InterPro:IPR005084"
+NODE_32_length_88662_cov_470.213076_69	Pfam	protein_match	45	300	9.1E-45	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_69 45 300;Ontology_term="GO:0004553","GO:0005975";ID=match$1540_45_300;signature_desc=Glycosyl hydrolases family 43;Name=PF04616;status=T;Dbxref="InterPro:IPR006710"
+NODE_32_length_88662_cov_470.213076_69	CDD	protein_match	533	655	8.46901E-59	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_69 533 655;ID=match$1541_533_655;signature_desc=CBM6_xylanase-like;Name=cd04084;status=T
+NODE_32_length_88662_cov_470.213076_69	CDD	protein_match	44	303	1.08974E-122	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_69 44 303;ID=match$1542_44_303;signature_desc=GH43_XYL_2;Name=cd09001;status=T
+NODE_32_length_88662_cov_470.213076_69	CDD	protein_match	665	721	2.69497E-20	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_69 665 721;ID=match$1543_665_721;signature_desc=Dockerin_I;Name=cd14256;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_71 1 965
+NODE_32_length_88662_cov_470.213076_71	.	polypeptide	1	965	.	+	.	ID=NODE_32_length_88662_cov_470.213076_71;md5=c2bb057398f0921ba380321dfd6c9a89
+NODE_32_length_88662_cov_470.213076_71	CDD	protein_match	903	959	1.01553E-19	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_71 903 959;ID=match$1837_903_959;signature_desc=Dockerin_I;Name=cd14256;status=T
+NODE_32_length_88662_cov_470.213076_71	Pfam	protein_match	775	895	1.6E-43	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_71 775 895;Ontology_term="GO:0030246";ID=match$1838_775_895;signature_desc=Carbohydrate binding module (family 6);Name=PF03422;status=T;Dbxref="InterPro:IPR005084"
+NODE_32_length_88662_cov_470.213076_71	Pfam	protein_match	939	959	3.4E-6	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_71 939 959;Ontology_term="GO:0000272","GO:0004553";ID=match$1839_939_959;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_71	Pfam	protein_match	905	925	6.0E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_71 905 925;Ontology_term="GO:0000272","GO:0004553";ID=match$1839_905_925;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_71	CDD	protein_match	772	894	1.51862E-56	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_71 772 894;ID=match$1840_772_894;signature_desc=CBM6_xylanase-like;Name=cd04084;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_3 1 144
+NODE_32_length_88662_cov_470.213076_3	.	polypeptide	1	144	.	+	.	ID=NODE_32_length_88662_cov_470.213076_3;md5=26549185a801e5d28198d5585f05a531
+NODE_32_length_88662_cov_470.213076_3	Hamap	protein_match	2	98	24.483	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_3 2 98;ID=match$2360_2_98;signature_desc=UPF0251 protein <locus_tag>.;Name=MF_00674;status=T;Dbxref="InterPro:IPR002852"
+NODE_32_length_88662_cov_470.213076_3	Pfam	protein_match	3	95	9.2E-20	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_3 3 95;ID=match$2361_3_95;signature_desc=Protein of unknown function  DUF134;Name=PF02001;status=T;Dbxref="InterPro:IPR002852"
+##sequence-region NODE_32_length_88662_cov_470.213076_19 1 113
+NODE_32_length_88662_cov_470.213076_19	.	polypeptide	1	113	.	+	.	ID=NODE_32_length_88662_cov_470.213076_19;md5=215646db0276ce3fd3ff22fb9096dbad
+NODE_32_length_88662_cov_470.213076_19	Hamap	protein_match	11	105	22.486	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_19 11 105;ID=match$2536_11_105;signature_desc=Nucleoid-associated protein YbaB [ybaB].;Name=MF_00274;status=T;Dbxref="InterPro:IPR004401"
+NODE_32_length_88662_cov_470.213076_19	Pfam	protein_match	18	106	2.6E-36	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_19 18 106;ID=match$2537_18_106;signature_desc=YbaB/EbfC DNA-binding family;Name=PF02575;status=T;Dbxref="InterPro:IPR004401"
+NODE_32_length_88662_cov_470.213076_19	TIGRFAM	protein_match	11	112	5.8E-29	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_19 11 112;ID=match$2538_11_112;signature_desc=DNA_YbaB_EbfC: DNA-binding protein, YbaB/EbfC family;Name=TIGR00103;status=T;Dbxref="InterPro:IPR004401"
+##sequence-region NODE_32_length_88662_cov_470.213076_70 1 503
+NODE_32_length_88662_cov_470.213076_70	.	polypeptide	1	503	.	+	.	ID=NODE_32_length_88662_cov_470.213076_70;md5=0897a9291e00d443cdf2e187d38a6493
+NODE_32_length_88662_cov_470.213076_70	Pfam	protein_match	303	424	4.3E-46	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_70 303 424;Ontology_term="GO:0030246";ID=match$2842_303_424;signature_desc=Carbohydrate binding module (family 6);Name=PF03422;status=T;Dbxref="InterPro:IPR005084"
+NODE_32_length_88662_cov_470.213076_70	CDD	protein_match	439	495	1.89366E-21	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_70 439 495;ID=match$2843_439_495;signature_desc=Dockerin_I;Name=cd14256;status=T
+NODE_32_length_88662_cov_470.213076_70	Pfam	protein_match	441	461	8.0E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_70 441 461;Ontology_term="GO:0000272","GO:0004553";ID=match$2844_441_461;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_70	Pfam	protein_match	475	495	1.5E-6	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_70 475 495;Ontology_term="GO:0000272","GO:0004553";ID=match$2844_475_495;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_70	Pfam	protein_match	58	199	8.2E-19	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_70 58 199;ID=match$2845_58_199;signature_desc=Putative esterase;Name=PF00756;status=T;Dbxref="InterPro:IPR000801","Reactome:R-HSA-156590"
+NODE_32_length_88662_cov_470.213076_70	CDD	protein_match	300	422	1.06896E-62	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_70 300 422;ID=match$2846_300_422;signature_desc=CBM6_xylanase-like;Name=cd04084;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_39 1 111
+NODE_32_length_88662_cov_470.213076_39	.	polypeptide	1	111	.	+	.	ID=NODE_32_length_88662_cov_470.213076_39;md5=0f7f811b742c787f9f008ac1cd99f190
+NODE_32_length_88662_cov_470.213076_39	CDD	protein_match	3	102	7.26252E-26	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_39 3 102;ID=match$2871_3_102;signature_desc=STAS_anti-anti-sigma_factors;Name=cd07043;status=T
+NODE_32_length_88662_cov_470.213076_39	TIGRFAM	protein_match	1	105	3.8E-26	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_39 1 105;Ontology_term="GO:0006355","GO:0045152";ID=match$2872_1_105;signature_desc=ant_ant_sig: anti-anti-sigma factor;Name=TIGR00377;status=T;Dbxref="InterPro:IPR003658"
+NODE_32_length_88662_cov_470.213076_39	Pfam	protein_match	3	107	4.2E-20	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_39 3 107;ID=match$2873_3_107;signature_desc=STAS domain;Name=PF01740;status=T;Dbxref="InterPro:IPR002645"
+##sequence-region NODE_32_length_88662_cov_470.213076_62 1 138
+NODE_32_length_88662_cov_470.213076_62	.	polypeptide	1	138	.	+	.	ID=NODE_32_length_88662_cov_470.213076_62;md5=f5e02992ca67612ed72c670b5741539e
+NODE_32_length_88662_cov_470.213076_62	Pfam	protein_match	1	102	1.2E-35	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_62 1 102;Ontology_term="GO:0003697";ID=match$3180_1_102;signature_desc=Single-strand binding protein family;Name=PF00436;status=T;Dbxref="InterPro:IPR000424","Reactome:R-HSA-2151201"
+NODE_32_length_88662_cov_470.213076_62	CDD	protein_match	4	102	9.07785E-41	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_62 4 102;Ontology_term="GO:0003697";ID=match$3181_4_102;signature_desc=SSB_OBF;Name=cd04496;status=T;Dbxref="InterPro:IPR000424","Reactome:R-HSA-2151201"
+NODE_32_length_88662_cov_470.213076_62	TIGRFAM	protein_match	1	112	1.3E-34	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_62 1 112;Ontology_term="GO:0003697","GO:0006260";ID=match$3182_1_112;signature_desc=ssb: single-stranded DNA-binding protein;Name=TIGR00621;status=T;Dbxref="InterPro:IPR011344","Reactome:R-HSA-2151201"
+NODE_32_length_88662_cov_470.213076_62	Hamap	protein_match	1	107	32.047	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_62 1 107;Ontology_term="GO:0003697","GO:0006260";ID=match$3183_1_107;signature_desc=Single-stranded DNA-binding protein.;Name=MF_00984;status=T;Dbxref="InterPro:IPR011344","Reactome:R-HSA-2151201"
+##sequence-region NODE_32_length_88662_cov_470.213076_36 1 40
+NODE_32_length_88662_cov_470.213076_36	.	polypeptide	1	40	.	+	.	ID=NODE_32_length_88662_cov_470.213076_36;md5=be8928db266578060958d23cc5e79acb
+NODE_32_length_88662_cov_470.213076_36	TIGRFAM	protein_match	3	40	6.2E-16	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_36 3 40;ID=match$3397_3_40;signature_desc=quorum_AgrD: cyclic lactone autoinducer peptide;Name=TIGR04223;status=T;Dbxref="InterPro:IPR009229"
+##sequence-region NODE_32_length_88662_cov_470.213076_11 1 160
+NODE_32_length_88662_cov_470.213076_11	.	polypeptide	1	160	.	+	.	ID=NODE_32_length_88662_cov_470.213076_11;md5=dfd4f1cc97e59bb080af660f8353fd77
+NODE_32_length_88662_cov_470.213076_11	Pfam	protein_match	35	159	2.2E-13	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_11 35 159;ID=match$5576_35_159;signature_desc=Predicted permease;Name=PF03773;status=T;Dbxref="InterPro:IPR005524"
+##sequence-region NODE_32_length_88662_cov_470.213076_22 1 113
+NODE_32_length_88662_cov_470.213076_22	.	polypeptide	1	113	.	+	.	ID=NODE_32_length_88662_cov_470.213076_22;md5=4d0e6c61c8e422677c16ebf89e2c7204
+NODE_32_length_88662_cov_470.213076_22	Pfam	protein_match	18	109	1.3E-34	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_22 18 109;ID=match$6063_18_109;signature_desc=Copper amine oxidase N-terminal domain;Name=PF07833;status=T;Dbxref="InterPro:IPR012854"
+##sequence-region NODE_32_length_88662_cov_470.213076_43 1 378
+NODE_32_length_88662_cov_470.213076_43	.	polypeptide	1	378	.	+	.	ID=NODE_32_length_88662_cov_470.213076_43;md5=83652920c5ec91ab88c365d92f3661a9
+NODE_32_length_88662_cov_470.213076_43	Pfam	protein_match	36	122	1.3E-8	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_43 36 122;ID=match$6899_36_122;signature_desc=PAS domain;Name=PF13426;status=T;Dbxref="InterPro:IPR000014"
+NODE_32_length_88662_cov_470.213076_43	Pfam	protein_match	185	376	1.1E-35	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_43 185 376;Ontology_term="GO:0003824";ID=match$6900_185_376;signature_desc=Stage II sporulation protein E (SpoIIE);Name=PF07228;status=T;Dbxref="InterPro:IPR001932","KEGG:04658+3.1.3.16","KEGG:04660+3.1.3.16"
+NODE_32_length_88662_cov_470.213076_43	TIGRFAM	protein_match	21	129	1.4E-8	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_43 21 129;ID=match$6901_21_129;signature_desc=sensory_box: PAS domain S-box protein;Name=TIGR00229;status=T;Dbxref="InterPro:IPR000014"
+##sequence-region NODE_32_length_88662_cov_470.213076_9 1 277
+NODE_32_length_88662_cov_470.213076_9	.	polypeptide	1	277	.	+	.	ID=NODE_32_length_88662_cov_470.213076_9;md5=359b037a486e0f18d9dc885e40cf8a3e
+NODE_32_length_88662_cov_470.213076_9	Pfam	protein_match	29	270	4.1E-93	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_9 29 270;ID=match$7066_29_270;signature_desc=NUBPL iron-transfer P-loop NTPase;Name=PF10609;status=T;Dbxref="InterPro:IPR033756"
+NODE_32_length_88662_cov_470.213076_9	CDD	protein_match	32	239	2.2588E-85	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_9 32 239;ID=match$7067_32_239;signature_desc=MRP-like;Name=cd02037;status=T;Dbxref="InterPro:IPR019591"
+NODE_32_length_88662_cov_470.213076_9	Hamap	protein_match	24	270	34.922	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_9 24 270;ID=match$7068_24_270;signature_desc=Iron-sulfur cluster carrier protein.;Name=MF_02040;status=T;Dbxref="InterPro:IPR019591"
+##sequence-region NODE_32_length_88662_cov_470.213076_28 1 172
+NODE_32_length_88662_cov_470.213076_28	.	polypeptide	1	172	.	+	.	ID=NODE_32_length_88662_cov_470.213076_28;md5=f64de184bb7ad20c2c9f060871b15a6f
+NODE_32_length_88662_cov_470.213076_28	Pfam	protein_match	30	170	2.2E-14	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_28 30 170;Ontology_term="GO:0000271","GO:0006810","GO:0016021";ID=match$8383_30_170;signature_desc=GtrA-like protein;Name=PF04138;status=T;Dbxref="InterPro:IPR007267"
+##sequence-region NODE_32_length_88662_cov_470.213076_58 1 929
+NODE_32_length_88662_cov_470.213076_58	.	polypeptide	1	929	.	+	.	ID=NODE_32_length_88662_cov_470.213076_58;md5=9c266b9d94225607a52f5734ed028c1b
+NODE_32_length_88662_cov_470.213076_58	Pfam	protein_match	211	387	1.7E-37	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_58 211 387;ID=match$8545_211_387;signature_desc=Phosphodiester glycosidase;Name=PF09992;status=T;Dbxref="InterPro:IPR018711"
+##sequence-region NODE_32_length_88662_cov_470.213076_49 1 67
+NODE_32_length_88662_cov_470.213076_49	.	polypeptide	1	67	.	+	.	ID=NODE_32_length_88662_cov_470.213076_49;md5=42afdbecbff955eaee0ed2e8446c92b7
+NODE_32_length_88662_cov_470.213076_49	Pfam	protein_match	1	64	2.1E-33	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_49 1 64;Ontology_term="GO:0003735","GO:0005622","GO:0005840","GO:0006412";ID=match$8636_1_64;signature_desc=Ribosomal protein L31;Name=PF01197;status=T;Dbxref="InterPro:IPR002150"
+NODE_32_length_88662_cov_470.213076_49	Hamap	protein_match	1	67	29.63	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_49 1 67;Ontology_term="GO:0003735","GO:0005622","GO:0005840","GO:0006412";ID=match$8637_1_67;signature_desc=50S ribosomal protein L31 [rpmE].;Name=MF_00501;status=T;Dbxref="InterPro:IPR027491"
+NODE_32_length_88662_cov_470.213076_49	TIGRFAM	protein_match	1	65	7.0E-32	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_49 1 65;Ontology_term="GO:0003735","GO:0005622","GO:0005840","GO:0006412";ID=match$8638_1_65;signature_desc=L31: ribosomal protein bL31;Name=TIGR00105;status=T;Dbxref="InterPro:IPR002150"
+##sequence-region NODE_32_length_88662_cov_470.213076_72 1 533
+NODE_32_length_88662_cov_470.213076_72	.	polypeptide	1	533	.	+	.	ID=NODE_32_length_88662_cov_470.213076_72;md5=ac0f43d6a1bd07477ccddbda8ba3c770
+NODE_32_length_88662_cov_470.213076_72	Pfam	protein_match	25	309	1.3E-57	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_72 25 309;Ontology_term="GO:0004553","GO:0005975";ID=match$9832_25_309;signature_desc=Glycosyl hydrolases family 43;Name=PF04616;status=T;Dbxref="InterPro:IPR006710"
+NODE_32_length_88662_cov_470.213076_72	Pfam	protein_match	332	452	2.0E-46	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_72 332 452;Ontology_term="GO:0030246";ID=match$9833_332_452;signature_desc=Carbohydrate binding module (family 6);Name=PF03422;status=T;Dbxref="InterPro:IPR005084"
+NODE_32_length_88662_cov_470.213076_72	CDD	protein_match	35	311	1.61578E-142	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_72 35 311;ID=match$9834_35_311;signature_desc=GH43_AXH_like;Name=cd08990;status=T
+NODE_32_length_88662_cov_470.213076_72	CDD	protein_match	330	451	6.77593E-66	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_72 330 451;ID=match$9835_330_451;signature_desc=CBM6_xylanase-like;Name=cd04084;status=T
+NODE_32_length_88662_cov_470.213076_72	Pfam	protein_match	470	490	2.8E-6	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_72 470 490;Ontology_term="GO:0000272","GO:0004553";ID=match$9836_470_490;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_72	Pfam	protein_match	504	524	2.2E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_72 504 524;Ontology_term="GO:0000272","GO:0004553";ID=match$9836_504_524;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_72	CDD	protein_match	468	524	5.75765E-21	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_72 468 524;ID=match$9837_468_524;signature_desc=Dockerin_I;Name=cd14256;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_64 1 415
+NODE_32_length_88662_cov_470.213076_64	.	polypeptide	1	415	.	+	.	ID=NODE_32_length_88662_cov_470.213076_64;md5=e9d86f70cb5321ed151d282749131b87
+NODE_32_length_88662_cov_470.213076_64	Pfam	protein_match	246	405	3.5E-53	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_64 246 405;ID=match$10416_246_405;signature_desc=Diguanylate cyclase, GGDEF domain;Name=PF00990;status=T;Dbxref="InterPro:IPR000160"
+NODE_32_length_88662_cov_470.213076_64	TIGRFAM	protein_match	243	407	2.8E-56	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_64 243 407;ID=match$10417_243_407;signature_desc=GGDEF: diguanylate cyclase (GGDEF) domain;Name=TIGR00254;status=T;Dbxref="InterPro:IPR000160"
+NODE_32_length_88662_cov_470.213076_64	CDD	protein_match	247	407	2.08348E-71	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_64 247 407;ID=match$10418_247_407;signature_desc=GGDEF;Name=cd01949;status=T;Dbxref="InterPro:IPR000160"
+##sequence-region NODE_32_length_88662_cov_470.213076_33 1 286
+NODE_32_length_88662_cov_470.213076_33	.	polypeptide	1	286	.	+	.	ID=NODE_32_length_88662_cov_470.213076_33;md5=02291df603386f27ee11878abff04c4c
+NODE_32_length_88662_cov_470.213076_33	Pfam	protein_match	57	278	5.3E-70	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_33 57 278;ID=match$11294_57_278;signature_desc=Carbohydrate-binding domain-containing protein Cthe_2159;Name=PF14262;status=T;Dbxref="InterPro:IPR025584"
+##sequence-region NODE_32_length_88662_cov_470.213076_1 1 134
+NODE_32_length_88662_cov_470.213076_1	.	polypeptide	1	134	.	+	.	ID=NODE_32_length_88662_cov_470.213076_1;md5=371d3019043d14d1b5cfa6049a8961b3
+NODE_32_length_88662_cov_470.213076_1	Pfam	protein_match	11	116	3.3E-30	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_1 11 116;ID=match$11635_11_116;signature_desc=23S rRNA-intervening sequence protein;Name=PF05635;status=T;Dbxref="InterPro:IPR012657"
+NODE_32_length_88662_cov_470.213076_1	CDD	protein_match	14	119	3.37653E-36	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_1 14 119;ID=match$11636_14_119;signature_desc=23S_rRNA_IVP_like;Name=cd16377;status=T;Dbxref="InterPro:IPR012657"
+NODE_32_length_88662_cov_470.213076_1	TIGRFAM	protein_match	15	122	3.4E-30	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_1 15 122;ID=match$11637_15_122;signature_desc=TIGR02436: four helix bundle protein;Name=TIGR02436;status=T;Dbxref="InterPro:IPR012657"
+##sequence-region NODE_32_length_88662_cov_470.213076_50 1 650
+NODE_32_length_88662_cov_470.213076_50	.	polypeptide	1	650	.	+	.	ID=NODE_32_length_88662_cov_470.213076_50;md5=bf2a0a7a1255df5fbfdc25792117a576
+NODE_32_length_88662_cov_470.213076_50	Pfam	protein_match	283	355	6.1E-33	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_50 283 355;Ontology_term="GO:0003723","GO:0006353";ID=match$11993_283_355;signature_desc=Rho termination factor, RNA-binding domain;Name=PF07497;status=T;Dbxref="InterPro:IPR011113"
+NODE_32_length_88662_cov_470.213076_50	CDD	protein_match	383	630	1.8489E-165	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_50 383 630;ID=match$11994_383_630;signature_desc=rho_factor;Name=cd01128;status=T
+NODE_32_length_88662_cov_470.213076_50	Pfam	protein_match	6	40	2.4E-9	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_50 6 40;Ontology_term="GO:0006353";ID=match$11995_6_40;signature_desc=Rho termination factor, N-terminal domain;Name=PF07498;status=T;Dbxref="InterPro:IPR011112"
+NODE_32_length_88662_cov_470.213076_50	Pfam	protein_match	386	590	8.5E-21	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_50 386 590;Ontology_term="GO:0005524";ID=match$11996_386_590;signature_desc=ATP synthase alpha/beta family, nucleotide-binding domain;Name=PF00006;status=T;Dbxref="InterPro:IPR000194","KEGG:00190+3.6.3.14","KEGG:00195+3.6.3.14","MetaCyc:PWY-7219"
+NODE_32_length_88662_cov_470.213076_50	Hamap	protein_match	282	646	203.987	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_50 282 646;Ontology_term="GO:0003723","GO:0005524","GO:0006353","GO:0008186";ID=match$11997_282_646;signature_desc=Transcription termination factor Rho [rho].;Name=MF_01884;status=T;Dbxref="InterPro:IPR004665"
+NODE_32_length_88662_cov_470.213076_50	TIGRFAM	protein_match	5	644	5.5E-194	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_50 5 644;Ontology_term="GO:0003723","GO:0005524","GO:0006353","GO:0008186";ID=match$11998_5_644;signature_desc=rho: transcription termination factor Rho;Name=TIGR00767;status=T;Dbxref="InterPro:IPR004665"
+NODE_32_length_88662_cov_470.213076_50	CDD	protein_match	283	348	7.94507E-31	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_50 283 348;Ontology_term="GO:0003723","GO:0006353";ID=match$11999_283_348;signature_desc=Rho_CSD;Name=cd04459;status=T;Dbxref="InterPro:IPR011113"
+##sequence-region NODE_32_length_88662_cov_470.213076_29 1 272
+NODE_32_length_88662_cov_470.213076_29	.	polypeptide	1	272	.	+	.	ID=NODE_32_length_88662_cov_470.213076_29;md5=8de3e0d616c9899a4035d2f0231234f8
+NODE_32_length_88662_cov_470.213076_29	CDD	protein_match	84	177	6.10421E-11	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_29 84 177;ID=match$12163_84_177;signature_desc=AdoMet_MTases;Name=cd02440;status=T
+NODE_32_length_88662_cov_470.213076_29	Pfam	protein_match	66	223	5.6E-21	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_29 66 223;ID=match$12164_66_223;signature_desc=Methyltransferase domain;Name=PF13489;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_23 1 660
+NODE_32_length_88662_cov_470.213076_23	.	polypeptide	1	660	.	+	.	ID=NODE_32_length_88662_cov_470.213076_23;md5=43bd7bfb4217f8e9469bdf1e50bfa683
+NODE_32_length_88662_cov_470.213076_23	CDD	protein_match	588	646	3.2766E-16	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_23 588 646;ID=match$12865_588_646;signature_desc=Dockerin_I;Name=cd14256;status=T
+NODE_32_length_88662_cov_470.213076_23	Pfam	protein_match	626	646	2.0E-5	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_23 626 646;Ontology_term="GO:0000272","GO:0004553";ID=match$12866_626_646;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_23	Pfam	protein_match	590	610	1.7E-5	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_23 590 610;Ontology_term="GO:0000272","GO:0004553";ID=match$12866_590_610;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_23	Pfam	protein_match	57	111	8.9E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_23 57 111;Ontology_term="GO:0005975","GO:0030248";ID=match$12867_57_111;signature_desc=Cellulose binding domain;Name=PF00942;status=T;Dbxref="InterPro:IPR001956"
+NODE_32_length_88662_cov_470.213076_23	Pfam	protein_match	212	541	1.6E-60	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_23 212 541;Ontology_term="GO:0004553","GO:0005975";ID=match$12868_212_541;signature_desc=Cellulase (glycosyl hydrolase family 5);Name=PF00150;status=T;Dbxref="InterPro:IPR001547"
+##sequence-region NODE_32_length_88662_cov_470.213076_7 1 295
+NODE_32_length_88662_cov_470.213076_7	.	polypeptide	1	295	.	+	.	ID=NODE_32_length_88662_cov_470.213076_7;md5=1b0922440ee411c6e7d1bc8b3b68a316
+NODE_32_length_88662_cov_470.213076_7	CDD	protein_match	19	254	4.31257E-56	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_7 19 254;ID=match$14191_19_254;signature_desc=Fer4_NifH_child;Name=cd03110;status=T
+NODE_32_length_88662_cov_470.213076_7	Pfam	protein_match	75	97	3.7E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_7 75 97;ID=match$14192_75_97;signature_desc=4Fe-4S binding domain;Name=PF00037;status=T;Dbxref="InterPro:IPR017896"
+NODE_32_length_88662_cov_470.213076_7	Pfam	protein_match	20	267	6.9E-17	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_7 20 267;ID=match$14193_20_267;signature_desc=CobQ/CobB/MinD/ParA nucleotide binding domain;Name=PF01656;status=T;Dbxref="InterPro:IPR002586"
+##sequence-region NODE_32_length_88662_cov_470.213076_73 1 1019
+NODE_32_length_88662_cov_470.213076_73	.	polypeptide	1	1019	.	+	.	ID=NODE_32_length_88662_cov_470.213076_73;md5=0513f1587eaf29800406f1876dbd9d8b
+NODE_32_length_88662_cov_470.213076_73	CDD	protein_match	951	1007	2.01176E-20	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_73 951 1007;ID=match$14900_951_1007;signature_desc=Dockerin_I;Name=cd14256;status=T
+NODE_32_length_88662_cov_470.213076_73	Pfam	protein_match	321	498	2.2E-32	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_73 321 498;Ontology_term="GO:0004553","GO:0005975";ID=match$14901_321_498;signature_desc=Glycosyl hydrolases family 2, TIM barrel domain;Name=PF02836;status=T;Dbxref="InterPro:IPR006103","KEGG:00052+3.2.1.23","KEGG:00511+3.2.1.23","KEGG:00531+3.2.1.23","KEGG:00600+3.2.1.23","KEGG:00604+3.2.1.23","MetaCyc:PWY-6807","Reactome:R-HSA-6798695"
+NODE_32_length_88662_cov_470.213076_73	Pfam	protein_match	953	973	5.8E-6	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_73 953 973;Ontology_term="GO:0000272","GO:0004553";ID=match$14902_953_973;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_73	Pfam	protein_match	987	1007	4.5E-8	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_73 987 1007;Ontology_term="GO:0000272","GO:0004553";ID=match$14902_987_1007;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_73	Pfam	protein_match	46	194	1.2E-25	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_73 46 194;Ontology_term="GO:0004553","GO:0005975";ID=match$14903_46_194;signature_desc=Glycosyl hydrolases family 2, sugar binding domain;Name=PF02837;status=T;Dbxref="InterPro:IPR006104","KEGG:00052+3.2.1.23","KEGG:00511+3.2.1.23","KEGG:00531+3.2.1.23","KEGG:00600+3.2.1.23","KEGG:00604+3.2.1.23","MetaCyc:PWY-6807"
+NODE_32_length_88662_cov_470.213076_73	CDD	protein_match	820	942	5.29196E-55	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_73 820 942;ID=match$14904_820_942;signature_desc=CBM6_xylanase-like;Name=cd04084;status=T
+NODE_32_length_88662_cov_470.213076_73	Pfam	protein_match	207	311	9.3E-21	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_73 207 311;Ontology_term="GO:0004553","GO:0005975";ID=match$14905_207_311;signature_desc=Glycosyl hydrolases family 2;Name=PF00703;status=T;Dbxref="InterPro:IPR006102"
+NODE_32_length_88662_cov_470.213076_73	Pfam	protein_match	823	943	2.0E-42	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_73 823 943;Ontology_term="GO:0030246";ID=match$14906_823_943;signature_desc=Carbohydrate binding module (family 6);Name=PF03422;status=T;Dbxref="InterPro:IPR005084"
+NODE_32_length_88662_cov_470.213076_73	Pfam	protein_match	630	683	3.2E-19	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_73 630 683;ID=match$14907_630_683;signature_desc=Domain of unknown function (DUF4982);Name=PF16355;status=T;Dbxref="InterPro:IPR032311","KEGG:00052+3.2.1.23","KEGG:00511+3.2.1.23","KEGG:00531+3.2.1.23","KEGG:00600+3.2.1.23","KEGG:00604+3.2.1.23","MetaCyc:PWY-6807"
+##sequence-region NODE_32_length_88662_cov_470.213076_15 1 321
+NODE_32_length_88662_cov_470.213076_15	.	polypeptide	1	321	.	+	.	ID=NODE_32_length_88662_cov_470.213076_15;md5=b1a5856e7970a80916648693a3f789cd
+NODE_32_length_88662_cov_470.213076_15	Pfam	protein_match	216	305	2.1E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_15 216 305;ID=match$15320_216_305;signature_desc=Domain of unknown function (DUF4162);Name=PF13732;status=T;Dbxref="InterPro:IPR025302"
+NODE_32_length_88662_cov_470.213076_15	Pfam	protein_match	20	162	3.7E-30	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_15 20 162;Ontology_term="GO:0005524","GO:0016887";ID=match$15321_20_162;signature_desc=ABC transporter;Name=PF00005;status=T;Dbxref="InterPro:IPR003439"
+NODE_32_length_88662_cov_470.213076_15	TIGRFAM	protein_match	11	306	1.7E-95	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_15 11 306;Ontology_term="GO:0005524","GO:0043215","GO:1900753";ID=match$15322_11_306;signature_desc=drrA: daunorubicin resistance ABC transporter, ATP-binding protein;Name=TIGR01188;status=T;Dbxref="InterPro:IPR005894"
+##sequence-region NODE_32_length_88662_cov_470.213076_55 1 922
+NODE_32_length_88662_cov_470.213076_55	.	polypeptide	1	922	.	+	.	ID=NODE_32_length_88662_cov_470.213076_55;md5=2daeb7f636764afcc23d3e3dd07c43e2
+NODE_32_length_88662_cov_470.213076_55	Pfam	protein_match	102	281	2.3E-35	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_55 102 281;ID=match$15709_102_281;signature_desc=Pectate lyase;Name=PF00544;status=T;Dbxref="InterPro:IPR002022"
+NODE_32_length_88662_cov_470.213076_55	Pfam	protein_match	427	447	1.3E-5	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_55 427 447;Ontology_term="GO:0000272","GO:0004553";ID=match$15710_427_447;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_55	Pfam	protein_match	393	413	4.4E-5	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_55 393 413;Ontology_term="GO:0000272","GO:0004553";ID=match$15710_393_413;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_55	CDD	protein_match	391	447	1.7932E-19	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_55 391 447;ID=match$15711_391_447;signature_desc=Dockerin_I;Name=cd14256;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_20 1 547
+NODE_32_length_88662_cov_470.213076_20	.	polypeptide	1	547	.	+	.	ID=NODE_32_length_88662_cov_470.213076_20;md5=611cd95d28a88b8515febb8b1b38eb55
+NODE_32_length_88662_cov_470.213076_20	Pfam	protein_match	21	178	1.0E-44	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_20 21 178;ID=match$15748_21_178;signature_desc=DNA polymerase III, delta subunit;Name=PF13177;status=T
+NODE_32_length_88662_cov_470.213076_20	TIGRFAM	protein_match	3	359	9.2E-139	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_20 3 359;Ontology_term="GO:0003887","GO:0005524","GO:0006260","GO:0009360";ID=match$15749_3_359;signature_desc=dnaX_nterm: DNA polymerase III, subunit gamma and tau;Name=TIGR02397;status=T;Dbxref="InterPro:IPR012763"
+NODE_32_length_88662_cov_470.213076_20	Pfam	protein_match	233	360	2.1E-8	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_20 233 360;Ontology_term="GO:0003887";ID=match$15750_233_360;signature_desc=DNA polymerase III subunits gamma and tau domain III;Name=PF12169;status=T;Dbxref="InterPro:IPR022754"
+NODE_32_length_88662_cov_470.213076_20	CDD	protein_match	19	172	2.01928E-12	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_20 19 172;ID=match$15751_19_172;signature_desc=AAA;Name=cd00009;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_66 1 737
+NODE_32_length_88662_cov_470.213076_66	.	polypeptide	1	737	.	+	.	ID=NODE_32_length_88662_cov_470.213076_66;md5=2341e8397b79515f33614798ebe1d02f
+NODE_32_length_88662_cov_470.213076_66	Pfam	protein_match	127	209	1.1E-22	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_66 127 209;Ontology_term="GO:0004553","GO:0005975";ID=match$16639_127_209;signature_desc=Carbohydrate-binding module 48 (Isoamylase N-terminal domain);Name=PF02922;status=T;Dbxref="InterPro:IPR004193","Reactome:R-HSA-3322077"
+NODE_32_length_88662_cov_470.213076_66	Pfam	protein_match	25	101	7.4E-6	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_66 25 101;Ontology_term="GO:0004553","GO:0005975";ID=match$16639_25_101;signature_desc=Carbohydrate-binding module 48 (Isoamylase N-terminal domain);Name=PF02922;status=T;Dbxref="InterPro:IPR004193","Reactome:R-HSA-3322077"
+NODE_32_length_88662_cov_470.213076_66	Hamap	protein_match	103	732	45.818	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_66 103 732;Ontology_term="GO:0003844","GO:0005978";ID=match$16640_103_732;signature_desc=1,4-alpha-glucan branching enzyme GlgB [glgB].;Name=MF_00685;status=T;Dbxref="InterPro:IPR006407","KEGG:00500+2.4.1.18","MetaCyc:PWY-5067","MetaCyc:PWY-622","Reactome:R-HSA-3322077"
+NODE_32_length_88662_cov_470.213076_66	CDD	protein_match	214	617	0.0	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_66 214 617;ID=match$16641_214_617;signature_desc=AmyAc_Glg_BE;Name=cd11322;status=T
+NODE_32_length_88662_cov_470.213076_66	Pfam	protein_match	281	351	1.2E-10	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_66 281 351;Ontology_term="GO:0003824","GO:0005975";ID=match$16642_281_351;signature_desc=Alpha amylase, catalytic domain;Name=PF00128;status=T;Dbxref="InterPro:IPR006047"
+NODE_32_length_88662_cov_470.213076_66	CDD	protein_match	120	224	2.3016E-58	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_66 120 224;ID=match$16643_120_224;signature_desc=E_set_GBE_prok_N;Name=cd02855;status=T
+NODE_32_length_88662_cov_470.213076_66	Pfam	protein_match	633	731	1.6E-22	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_66 633 731;Ontology_term="GO:0003824","GO:0005975","GO:0043169";ID=match$16644_633_731;signature_desc=Alpha amylase, C-terminal all-beta domain;Name=PF02806;status=T;Dbxref="InterPro:IPR006048","KEGG:00500+2.4.1.18","MetaCyc:PWY-5067","MetaCyc:PWY-622"
+NODE_32_length_88662_cov_470.213076_66	TIGRFAM	protein_match	111	730	2.5E-302	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_66 111 730;Ontology_term="GO:0003844","GO:0005978";ID=match$16645_111_730;signature_desc=branching_enzym: 1,4-alpha-glucan branching enzyme;Name=TIGR01515;status=T;Dbxref="InterPro:IPR006407","KEGG:00500+2.4.1.18","MetaCyc:PWY-5067","MetaCyc:PWY-622","Reactome:R-HSA-3322077"
+##sequence-region NODE_32_length_88662_cov_470.213076_6 1 286
+NODE_32_length_88662_cov_470.213076_6	.	polypeptide	1	286	.	+	.	ID=NODE_32_length_88662_cov_470.213076_6;md5=323652fb338529354e242820081a3567
+NODE_32_length_88662_cov_470.213076_6	Pfam	protein_match	61	83	1.1E-5	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_6 61 83;ID=match$16660_61_83;signature_desc=4Fe-4S binding domain;Name=PF00037;status=T;Dbxref="InterPro:IPR017896"
+NODE_32_length_88662_cov_470.213076_6	Pfam	protein_match	86	108	3.2E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_6 86 108;ID=match$16660_86_108;signature_desc=4Fe-4S binding domain;Name=PF00037;status=T;Dbxref="InterPro:IPR017896"
+NODE_32_length_88662_cov_470.213076_6	CDD	protein_match	2	243	8.5165E-68	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_6 2 243;ID=match$16661_2_243;signature_desc=Fer4_NifH_child;Name=cd03110;status=T
+NODE_32_length_88662_cov_470.213076_6	Pfam	protein_match	3	258	1.7E-15	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_6 3 258;ID=match$16662_3_258;signature_desc=CobQ/CobB/MinD/ParA nucleotide binding domain;Name=PF01656;status=T;Dbxref="InterPro:IPR002586"
+##sequence-region NODE_32_length_88662_cov_470.213076_44 1 380
+NODE_32_length_88662_cov_470.213076_44	.	polypeptide	1	380	.	+	.	ID=NODE_32_length_88662_cov_470.213076_44;md5=982052c4b3399e02c131ef321f6b7b0e
+NODE_32_length_88662_cov_470.213076_44	Pfam	protein_match	61	230	1.4E-8	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_44 61 230;Ontology_term="GO:0004553","GO:0005975";ID=match$18173_61_230;signature_desc=Glycosyl hydrolases family 8;Name=PF01270;status=T;Dbxref="InterPro:IPR002037","KEGG:00500+3.2.1.4","MetaCyc:PWY-6788"
+##sequence-region NODE_32_length_88662_cov_470.213076_48 1 989
+NODE_32_length_88662_cov_470.213076_48	.	polypeptide	1	989	.	+	.	ID=NODE_32_length_88662_cov_470.213076_48;md5=ae4af44258a6151d4308fa49f87ff5e8
+NODE_32_length_88662_cov_470.213076_48	Pfam	protein_match	13	246	6.3E-16	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_48 13 246;Ontology_term="GO:0003677","GO:0005524","GO:0016787";ID=match$19788_13_246;signature_desc=Type III restriction enzyme, res subunit;Name=PF04851;status=T;Dbxref="InterPro:IPR006935"
+NODE_32_length_88662_cov_470.213076_48	CDD	protein_match	200	245	6.66003E-4	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_48 200 245;ID=match$19789_200_245;signature_desc=DEXDc;Name=cd00046;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_63 1 95
+NODE_32_length_88662_cov_470.213076_63	.	polypeptide	1	95	.	+	.	ID=NODE_32_length_88662_cov_470.213076_63;md5=8b62874a41afcbfff56a20f9ad8c0f36
+NODE_32_length_88662_cov_470.213076_63	Hamap	protein_match	2	95	20.956	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_63 2 95;Ontology_term="GO:0003735","GO:0005840","GO:0006412","GO:0019843";ID=match$20361_2_95;signature_desc=30S ribosomal protein S6 [rpsF].;Name=MF_00360;status=T;Dbxref="InterPro:IPR020814"
+NODE_32_length_88662_cov_470.213076_63	TIGRFAM	protein_match	3	94	1.0E-26	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_63 3 94;Ontology_term="GO:0003735","GO:0005840","GO:0006412","GO:0019843";ID=match$20362_3_94;signature_desc=S6: ribosomal protein bS6;Name=TIGR00166;status=T;Dbxref="InterPro:IPR000529","Reactome:R-HSA-5368286","Reactome:R-HSA-5389840","Reactome:R-HSA-5419276"
+NODE_32_length_88662_cov_470.213076_63	CDD	protein_match	4	93	1.03203E-34	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_63 4 93;ID=match$20363_4_93;signature_desc=bS6;Name=cd00473;status=T
+NODE_32_length_88662_cov_470.213076_63	Pfam	protein_match	4	92	1.4E-28	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_63 4 92;Ontology_term="GO:0003735","GO:0005840","GO:0006412","GO:0019843";ID=match$20364_4_92;signature_desc=Ribosomal protein S6;Name=PF01250;status=T;Dbxref="InterPro:IPR000529","Reactome:R-HSA-5368286","Reactome:R-HSA-5389840","Reactome:R-HSA-5419276"
+##sequence-region NODE_32_length_88662_cov_470.213076_8 1 131
+NODE_32_length_88662_cov_470.213076_8	.	polypeptide	1	131	.	+	.	ID=NODE_32_length_88662_cov_470.213076_8;md5=1e2f5187fef8cd53d384585bb5c72dbd
+NODE_32_length_88662_cov_470.213076_8	CDD	protein_match	1	102	1.5422E-29	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_8 1 102;ID=match$20791_1_102;signature_desc=MTH1175;Name=cd00851;status=T;Dbxref="InterPro:IPR033913"
+NODE_32_length_88662_cov_470.213076_8	Pfam	protein_match	13	102	8.4E-24	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_8 13 102;ID=match$20792_13_102;signature_desc=Dinitrogenase iron-molybdenum cofactor;Name=PF02579;status=T;Dbxref="InterPro:IPR003731"
+##sequence-region NODE_32_length_88662_cov_470.213076_46 1 273
+NODE_32_length_88662_cov_470.213076_46	.	polypeptide	1	273	.	+	.	ID=NODE_32_length_88662_cov_470.213076_46;md5=cb45e9f37183638d7ef7dbfc19cbd0e9
+NODE_32_length_88662_cov_470.213076_46	Pfam	protein_match	49	209	1.1E-15	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_46 49 209;Ontology_term="GO:0016787";ID=match$21550_49_209;signature_desc=Calcineurin-like phosphoesterase;Name=PF00149;status=T;Dbxref="InterPro:IPR004843"
+NODE_32_length_88662_cov_470.213076_46	CDD	protein_match	47	269	8.39956E-78	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_46 47 269;ID=match$21551_47_269;signature_desc=MPP_YkuE_C;Name=cd07385;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_47 1 369
+NODE_32_length_88662_cov_470.213076_47	.	polypeptide	1	369	.	+	.	ID=NODE_32_length_88662_cov_470.213076_47;md5=3061f5f6951e7a75ebd4d4f332d45e33
+NODE_32_length_88662_cov_470.213076_47	Pfam	protein_match	206	364	8.6E-44	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_47 206 364;ID=match$21737_206_364;signature_desc=Putative amidase domain;Name=PF12671;status=T;Dbxref="InterPro:IPR024301"
+##sequence-region NODE_32_length_88662_cov_470.213076_10 1 241
+NODE_32_length_88662_cov_470.213076_10	.	polypeptide	1	241	.	+	.	ID=NODE_32_length_88662_cov_470.213076_10;md5=05967c880c5bf050e8d0789a64bc7679
+NODE_32_length_88662_cov_470.213076_10	Pfam	protein_match	39	205	4.0E-18	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_10 39 205;ID=match$22542_39_205;signature_desc=Predicted permease;Name=PF03773;status=T;Dbxref="InterPro:IPR005524"
+NODE_32_length_88662_cov_470.213076_10	Pfam	protein_match	188	239	5.8E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_10 188 239;ID=match$22543_188_239;signature_desc=4Fe-4S single cluster domain of Ferredoxin I;Name=PF13370;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_41 1 52
+NODE_32_length_88662_cov_470.213076_41	.	polypeptide	1	52	.	+	.	ID=NODE_32_length_88662_cov_470.213076_41;md5=80aaa00be1f6af844761af621bbe1e4a
+NODE_32_length_88662_cov_470.213076_41	CDD	protein_match	3	51	3.08584E-23	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_41 3 51;Ontology_term="GO:0005506";ID=match$22825_3_51;signature_desc=rubredoxin;Name=cd00730;status=T;Dbxref="InterPro:IPR024935"
+NODE_32_length_88662_cov_470.213076_41	Pfam	protein_match	3	49	3.8E-26	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_41 3 49;Ontology_term="GO:0005506";ID=match$22826_3_49;signature_desc=Rubredoxin;Name=PF00301;status=T;Dbxref="InterPro:IPR024935"
+##sequence-region NODE_32_length_88662_cov_470.213076_68 1 948
+NODE_32_length_88662_cov_470.213076_68	.	polypeptide	1	948	.	+	.	ID=NODE_32_length_88662_cov_470.213076_68;md5=7b0435705ebede7646c34ec75a4b6449
+NODE_32_length_88662_cov_470.213076_68	CDD	protein_match	652	727	4.22478E-6	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_68 652 727;Ontology_term="GO:0005515";ID=match$22936_652_727;signature_desc=FN3;Name=cd00063;status=T;Dbxref="InterPro:IPR003961"
+NODE_32_length_88662_cov_470.213076_68	CDD	protein_match	886	942	4.49554E-21	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_68 886 942;ID=match$22937_886_942;signature_desc=Dockerin_I;Name=cd14256;status=T
+NODE_32_length_88662_cov_470.213076_68	Pfam	protein_match	888	908	5.0E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_68 888 908;Ontology_term="GO:0000272","GO:0004553";ID=match$22938_888_908;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_68	Pfam	protein_match	922	942	8.2E-8	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_68 922 942;Ontology_term="GO:0000272","GO:0004553";ID=match$22938_922_942;signature_desc=Dockerin type I repeat;Name=PF00404;status=T;Dbxref="InterPro:IPR002105"
+NODE_32_length_88662_cov_470.213076_68	Pfam	protein_match	57	280	9.7E-12	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_68 57 280;Ontology_term="GO:0004553","GO:0005975";ID=match$22939_57_280;signature_desc=Cellulase (glycosyl hydrolase family 5);Name=PF00150;status=T;Dbxref="InterPro:IPR001547"
+NODE_32_length_88662_cov_470.213076_68	CDD	protein_match	375	514	2.6426E-54	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_68 375 514;ID=match$22940_375_514;signature_desc=CBM6_cellulase-like;Name=cd04080;status=T
+NODE_32_length_88662_cov_470.213076_68	Pfam	protein_match	402	514	1.0E-20	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_68 402 514;Ontology_term="GO:0030246";ID=match$22941_402_514;signature_desc=Carbohydrate binding module (family 6);Name=PF03422;status=T;Dbxref="InterPro:IPR005084"
+##sequence-region NODE_32_length_88662_cov_470.213076_65 1 401
+NODE_32_length_88662_cov_470.213076_65	.	polypeptide	1	401	.	+	.	ID=NODE_32_length_88662_cov_470.213076_65;md5=1e6233d4187c1176b9d8b2683faf8c93
+NODE_32_length_88662_cov_470.213076_65	CDD	protein_match	13	388	2.97248E-170	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_65 13 388;Ontology_term="GO:0006044","GO:0008448";ID=match$23067_13_388;signature_desc=NagA;Name=cd00854;status=T;Dbxref="InterPro:IPR003764","KEGG:00052+3.5.1.25","KEGG:00520+3.5.1.25","MetaCyc:PWY-6906","MetaCyc:PWY-7077","MetaCyc:PWY-7395","Reactome:R-HSA-446210"
+NODE_32_length_88662_cov_470.213076_65	TIGRFAM	protein_match	12	388	1.6E-106	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_65 12 388;Ontology_term="GO:0006044","GO:0008448";ID=match$23068_12_388;signature_desc=nagA: N-acetylglucosamine-6-phosphate deacetylase;Name=TIGR00221;status=T;Dbxref="InterPro:IPR003764","KEGG:00052+3.5.1.25","KEGG:00520+3.5.1.25","MetaCyc:PWY-6906","MetaCyc:PWY-7077","MetaCyc:PWY-7395","Reactome:R-HSA-446210"
+NODE_32_length_88662_cov_470.213076_65	Pfam	protein_match	62	388	7.2E-26	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_65 62 388;Ontology_term="GO:0016787";ID=match$23069_62_388;signature_desc=Amidohydrolase family;Name=PF01979;status=T;Dbxref="InterPro:IPR006680"
+##sequence-region NODE_32_length_88662_cov_470.213076_25 1 429
+NODE_32_length_88662_cov_470.213076_25	.	polypeptide	1	429	.	+	.	ID=NODE_32_length_88662_cov_470.213076_25;md5=9b0e0fce3c9793d186abed0bf4ee67bb
+NODE_32_length_88662_cov_470.213076_25	Pfam	protein_match	11	405	4.5E-34	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_25 11 405;Ontology_term="GO:0016491","GO:0055114";ID=match$23103_11_405;signature_desc=Flavin containing amine oxidoreductase;Name=PF01593;status=T;Dbxref="InterPro:IPR002937"
+##sequence-region NODE_32_length_88662_cov_470.213076_13 1 225
+NODE_32_length_88662_cov_470.213076_13	.	polypeptide	1	225	.	+	.	ID=NODE_32_length_88662_cov_470.213076_13;md5=50046cfdc6887d9c1ff814a866bb4baf
+NODE_32_length_88662_cov_470.213076_13	CDD	protein_match	15	132	1.52048E-14	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_13 15 132;ID=match$23529_15_132;signature_desc=CAP_ED;Name=cd00038;status=T
+NODE_32_length_88662_cov_470.213076_13	Pfam	protein_match	37	123	1.6E-11	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_13 37 123;ID=match$23530_37_123;signature_desc=Cyclic nucleotide-binding domain;Name=PF00027;status=T;Dbxref="InterPro:IPR000595"
+NODE_32_length_88662_cov_470.213076_13	Pfam	protein_match	162	219	1.1E-12	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_13 162 219;Ontology_term="GO:0003677","GO:0006355";ID=match$23531_162_219;signature_desc=Crp-like helix-turn-helix domain;Name=PF13545;status=T;Dbxref="InterPro:IPR012318"
+##sequence-region NODE_32_length_88662_cov_470.213076_34 1 797
+NODE_32_length_88662_cov_470.213076_34	.	polypeptide	1	797	.	+	.	ID=NODE_32_length_88662_cov_470.213076_34;md5=65cb6da99fdf70252a306d0bb6df23fa
+NODE_32_length_88662_cov_470.213076_34	Pfam	protein_match	408	673	5.5E-32	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_34 408 673;ID=match$23643_408_673;signature_desc=CotH kinase protein;Name=PF08757;status=T;Dbxref="InterPro:IPR014867"
+NODE_32_length_88662_cov_470.213076_34	Pfam	protein_match	74	186	6.6E-14	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_34 74 186;ID=match$23644_74_186;signature_desc=Lamin Tail Domain;Name=PF00932;status=T;Dbxref="InterPro:IPR001322"
+NODE_32_length_88662_cov_470.213076_34	Pfam	protein_match	240	326	3.7E-21	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_34 240 326;ID=match$23645_240_326;signature_desc=Fn3 associated;Name=PF13287;status=T;Dbxref="InterPro:IPR026876"
+##sequence-region NODE_32_length_88662_cov_470.213076_61 1 94
+NODE_32_length_88662_cov_470.213076_61	.	polypeptide	1	94	.	+	.	ID=NODE_32_length_88662_cov_470.213076_61;md5=490317d649237b37dc1e545530f9501f
+NODE_32_length_88662_cov_470.213076_61	Hamap	protein_match	21	94	22.23	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_61 21 94;Ontology_term="GO:0003735","GO:0005622","GO:0005840","GO:0006412";ID=match$23872_21_94;signature_desc=30S ribosomal protein S18 [rpsR].;Name=MF_00270;status=T;Dbxref="InterPro:IPR001648","Reactome:R-HSA-5368286","Reactome:R-HSA-5389840","Reactome:R-HSA-5419276"
+NODE_32_length_88662_cov_470.213076_61	Pfam	protein_match	39	89	3.1E-28	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_61 39 89;Ontology_term="GO:0003735","GO:0005622","GO:0005840","GO:0006412";ID=match$23873_39_89;signature_desc=Ribosomal protein S18;Name=PF01084;status=T;Dbxref="InterPro:IPR001648","Reactome:R-HSA-5368286","Reactome:R-HSA-5389840","Reactome:R-HSA-5419276"
+NODE_32_length_88662_cov_470.213076_61	TIGRFAM	protein_match	27	93	6.7E-34	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_61 27 93;Ontology_term="GO:0003735","GO:0005622","GO:0005840","GO:0006412";ID=match$23874_27_93;signature_desc=S18: ribosomal protein bS18;Name=TIGR00165;status=T;Dbxref="InterPro:IPR001648","Reactome:R-HSA-5368286","Reactome:R-HSA-5389840","Reactome:R-HSA-5419276"
+##sequence-region NODE_32_length_88662_cov_470.213076_2 1 185
+NODE_32_length_88662_cov_470.213076_2	.	polypeptide	1	185	.	+	.	ID=NODE_32_length_88662_cov_470.213076_2;md5=a6779c0882336f987197e47343924690
+NODE_32_length_88662_cov_470.213076_2	CDD	protein_match	21	176	1.26761E-35	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_2 21 176;ID=match$23915_21_176;signature_desc=DUF820;Name=cd06260;status=T;Dbxref="InterPro:IPR008538"
+NODE_32_length_88662_cov_470.213076_2	Pfam	protein_match	12	177	6.2E-27	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_2 12 177;ID=match$23916_12_177;signature_desc=Putative restriction endonuclease;Name=PF05685;status=T;Dbxref="InterPro:IPR008538"
+##sequence-region NODE_32_length_88662_cov_470.213076_5 1 118
+NODE_32_length_88662_cov_470.213076_5	.	polypeptide	1	118	.	+	.	ID=NODE_32_length_88662_cov_470.213076_5;md5=1deb4c17e8647704370d532135efffce
+NODE_32_length_88662_cov_470.213076_5	Pfam	protein_match	9	96	2.3E-23	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_5 9 96;ID=match$23969_9_96;signature_desc=Dinitrogenase iron-molybdenum cofactor;Name=PF02579;status=T;Dbxref="InterPro:IPR003731"
+NODE_32_length_88662_cov_470.213076_5	CDD	protein_match	1	96	1.71154E-27	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_5 1 96;ID=match$23970_1_96;signature_desc=MTH1175;Name=cd00851;status=T;Dbxref="InterPro:IPR033913"
+##sequence-region NODE_32_length_88662_cov_470.213076_38 1 238
+NODE_32_length_88662_cov_470.213076_38	.	polypeptide	1	238	.	+	.	ID=NODE_32_length_88662_cov_470.213076_38;md5=bbff075c51090f470496e434e73321d2
+NODE_32_length_88662_cov_470.213076_38	CDD	protein_match	8	234	3.13717E-88	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_38 8 234;ID=match$24035_8_234;signature_desc=GATase1_2;Name=cd01745;status=T
+NODE_32_length_88662_cov_470.213076_38	Pfam	protein_match	6	217	1.2E-66	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_38 6 217;Ontology_term="GO:0016787";ID=match$24036_6_217;signature_desc=Peptidase C26;Name=PF07722;status=T;Dbxref="InterPro:IPR011697","Reactome:R-HSA-6798695"
+##sequence-region NODE_32_length_88662_cov_470.213076_42 1 197
+NODE_32_length_88662_cov_470.213076_42	.	polypeptide	1	197	.	+	.	ID=NODE_32_length_88662_cov_470.213076_42;md5=79ecadfa6ae0d5a5e5b02da7383f7cf5
+NODE_32_length_88662_cov_470.213076_42	TIGRFAM	protein_match	42	180	1.8E-63	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_42 42 180;ID=match$24240_42_180;signature_desc=spore_YyaC: putative sporulation protein YyaC;Name=TIGR02841;status=T;Dbxref="InterPro:IPR009665"
+NODE_32_length_88662_cov_470.213076_42	Pfam	protein_match	14	178	2.0E-59	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_42 14 178;ID=match$24241_14_178;signature_desc=Protein of unknown function (DUF1256);Name=PF06866;status=T;Dbxref="InterPro:IPR009665"
+##sequence-region NODE_32_length_88662_cov_470.213076_16 1 144
+NODE_32_length_88662_cov_470.213076_16	.	polypeptide	1	144	.	+	.	ID=NODE_32_length_88662_cov_470.213076_16;md5=894718078072f569907765fa96f8c531
+NODE_32_length_88662_cov_470.213076_16	CDD	protein_match	7	70	5.63065E-16	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_16 7 70;ID=match$25091_7_70;signature_desc=HTH_ARSR;Name=cd00090;status=T
+NODE_32_length_88662_cov_470.213076_16	Pfam	protein_match	12	56	2.2E-13	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_16 12 56;Ontology_term="GO:0003700","GO:0006355";ID=match$25092_12_56;signature_desc=Bacterial regulatory protein, arsR family;Name=PF01022;status=T;Dbxref="InterPro:IPR001845"
+##sequence-region NODE_32_length_88662_cov_470.213076_4 1 161
+NODE_32_length_88662_cov_470.213076_4	.	polypeptide	1	161	.	+	.	ID=NODE_32_length_88662_cov_470.213076_4;md5=a951882de6262aa8aa5979e93ab79750
+NODE_32_length_88662_cov_470.213076_4	CDD	protein_match	30	149	1.82452E-30	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_4 30 149;Ontology_term="GO:0003700","GO:0006355";ID=match$25877_30_149;signature_desc=Fur_like;Name=cd07153;status=T;Dbxref="InterPro:IPR002481"
+NODE_32_length_88662_cov_470.213076_4	Pfam	protein_match	23	120	9.7E-24	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_4 23 120;Ontology_term="GO:0003700","GO:0006355";ID=match$25878_23_120;signature_desc=Ferric uptake regulator family;Name=PF01475;status=T;Dbxref="InterPro:IPR002481"
+##sequence-region NODE_32_length_88662_cov_470.213076_12 1 109
+NODE_32_length_88662_cov_470.213076_12	.	polypeptide	1	109	.	+	.	ID=NODE_32_length_88662_cov_470.213076_12;md5=bcd53c7932ca21130677d84474156b53
+NODE_32_length_88662_cov_470.213076_12	Pfam	protein_match	29	97	7.2E-7	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_12 29 97;ID=match$26996_29_97;signature_desc=Cupin domain;Name=PF07883;status=T;Dbxref="InterPro:IPR013096"
+##sequence-region NODE_32_length_88662_cov_470.213076_52 1 292
+NODE_32_length_88662_cov_470.213076_52	.	polypeptide	1	292	.	+	.	ID=NODE_32_length_88662_cov_470.213076_52;md5=dbe72b76e5b9483dc6ee1897b938b10b
+NODE_32_length_88662_cov_470.213076_52	Pfam	protein_match	153	240	4.5E-23	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_52 153 240;Ontology_term="GO:0016020";ID=match$28474_153_240;signature_desc=CAAX protease self-immunity;Name=PF02517;status=T;Dbxref="InterPro:IPR003675","Reactome:R-HSA-5689880"
+##sequence-region NODE_32_length_88662_cov_470.213076_59 1 316
+NODE_32_length_88662_cov_470.213076_59	.	polypeptide	1	316	.	+	.	ID=NODE_32_length_88662_cov_470.213076_59;md5=8210295408e17c83f1864393398627c8
+NODE_32_length_88662_cov_470.213076_59	TIGRFAM	protein_match	30	290	1.5E-123	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_59 30 290;Ontology_term="GO:0003983","GO:0006011";ID=match$28931_30_290;signature_desc=galU: UTP--glucose-1-phosphate uridylyltransferase;Name=TIGR01099;status=T;Dbxref="InterPro:IPR005771","KEGG:00040+2.7.7.9","KEGG:00052+2.7.7.9","KEGG:00500+2.7.7.9","KEGG:00520+2.7.7.9","MetaCyc:PWY-3801","MetaCyc:PWY-6527","MetaCyc:PWY-7238","MetaCyc:PWY-7343","MetaCyc:PWY-7817"
+NODE_32_length_88662_cov_470.213076_59	Pfam	protein_match	32	291	3.9E-32	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_59 32 291;Ontology_term="GO:0009058","GO:0016779";ID=match$28932_32_291;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+NODE_32_length_88662_cov_470.213076_59	CDD	protein_match	31	296	2.53088E-166	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_59 31 296;ID=match$28933_31_296;signature_desc=UGPase_prokaryotic;Name=cd02541;status=T
+##sequence-region NODE_32_length_88662_cov_470.213076_57 1 218
+NODE_32_length_88662_cov_470.213076_57	.	polypeptide	1	218	.	+	.	ID=NODE_32_length_88662_cov_470.213076_57;md5=9bc5bc0c08d69df7c6202cff3b072c8a
+NODE_32_length_88662_cov_470.213076_57	CDD	protein_match	7	181	4.61775E-61	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_57 7 181;ID=match$28948_7_181;signature_desc=Alpha_ANH_like_II;Name=cd01993;status=T
+NODE_32_length_88662_cov_470.213076_57	Pfam	protein_match	8	176	7.0E-18	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_57 8 176;ID=match$28949_8_176;signature_desc=PP-loop family;Name=PF01171;status=T;Dbxref="InterPro:IPR011063","Reactome:R-HSA-6782315"
+##sequence-region NODE_32_length_88662_cov_470.213076_60 1 276
+NODE_32_length_88662_cov_470.213076_60	.	polypeptide	1	276	.	+	.	ID=NODE_32_length_88662_cov_470.213076_60;md5=c18e403fadcce084edf6ede657509f82
+NODE_32_length_88662_cov_470.213076_60	TIGRFAM	protein_match	15	272	2.1E-46	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_60 15 272;ID=match$29674_15_272;signature_desc=yihY_not_rbn: YihY family inner membrane protein;Name=TIGR00765;status=T;Dbxref="InterPro:IPR017039"
+NODE_32_length_88662_cov_470.213076_60	Pfam	protein_match	22	274	1.3E-69	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_60 22 274;ID=match$29675_22_274;signature_desc=Virulence factor BrkB;Name=PF03631;status=T;Dbxref="InterPro:IPR017039"
+##sequence-region NODE_32_length_88662_cov_470.213076_14 1 244
+NODE_32_length_88662_cov_470.213076_14	.	polypeptide	1	244	.	+	.	ID=NODE_32_length_88662_cov_470.213076_14;md5=3bd42ab99e76a8d3321ced8677dca66a
+NODE_32_length_88662_cov_470.213076_14	Pfam	protein_match	7	206	4.1E-30	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_14 7 206;Ontology_term="GO:0016020";ID=match$30238_7_206;signature_desc=ABC-2 type transporter;Name=PF01061;status=T;Dbxref="InterPro:IPR013525","Reactome:R-HSA-1369062"
+##sequence-region NODE_32_length_88662_cov_470.213076_24 1 243
+NODE_32_length_88662_cov_470.213076_24	.	polypeptide	1	243	.	+	.	ID=NODE_32_length_88662_cov_470.213076_24;md5=9ad8705ce49641a0f1f791e3bd96bd57
+NODE_32_length_88662_cov_470.213076_24	Pfam	protein_match	28	115	3.9E-6	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_24 28 115;Ontology_term="GO:0016798";ID=match$30898_28_115;signature_desc=Carbohydrate binding domain;Name=PF02018;status=T;Dbxref="InterPro:IPR003305"
+##sequence-region NODE_32_length_88662_cov_470.213076_56 1 432
+NODE_32_length_88662_cov_470.213076_56	.	polypeptide	1	432	.	+	.	ID=NODE_32_length_88662_cov_470.213076_56;md5=189784cc8785299d201a33c9343928a8
+NODE_32_length_88662_cov_470.213076_56	Pfam	protein_match	57	386	7.9E-58	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_56 57 386;Ontology_term="GO:0005247","GO:0006821","GO:0016020","GO:0055085";ID=match$30991_57_386;signature_desc=Voltage gated chloride channel;Name=PF00654;status=T;Dbxref="InterPro:IPR001807","Reactome:R-HSA-2672351"
+##sequence-region NODE_32_length_88662_cov_470.213076_30 1 631
+NODE_32_length_88662_cov_470.213076_30	.	polypeptide	1	631	.	+	.	ID=NODE_32_length_88662_cov_470.213076_30;md5=ebf70ef6b5ea956bf0cfde0d206ec157
+NODE_32_length_88662_cov_470.213076_30	Pfam	protein_match	536	577	1.4E-14	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_30 536 577;ID=match$31329_536_577;signature_desc=S-layer homology domain;Name=PF00395;status=T;Dbxref="InterPro:IPR001119"
+NODE_32_length_88662_cov_470.213076_30	Pfam	protein_match	476	518	5.3E-16	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_30 476 518;ID=match$31329_476_518;signature_desc=S-layer homology domain;Name=PF00395;status=T;Dbxref="InterPro:IPR001119"
+NODE_32_length_88662_cov_470.213076_30	Pfam	protein_match	435	456	1.6E-6	+	.	date=03-11-2019;Target=NODE_32_length_88662_cov_470.213076_30 435 456;ID=match$31329_435_456;signature_desc=S-layer homology domain;Name=PF00395;status=T;Dbxref="InterPro:IPR001119"
+>NODE_32_length_88662_cov_470.213076_1
+>NODE_32_length_88662_cov_470.213076_10
+>NODE_32_length_88662_cov_470.213076_11
+>NODE_32_length_88662_cov_470.213076_12
+>NODE_32_length_88662_cov_470.213076_13
+>NODE_32_length_88662_cov_470.213076_14
+>NODE_32_length_88662_cov_470.213076_15
+>NODE_32_length_88662_cov_470.213076_16
+>NODE_32_length_88662_cov_470.213076_18
+>NODE_32_length_88662_cov_470.213076_19
+>NODE_32_length_88662_cov_470.213076_2
+>NODE_32_length_88662_cov_470.213076_20
+>NODE_32_length_88662_cov_470.213076_22
+>NODE_32_length_88662_cov_470.213076_23
+>NODE_32_length_88662_cov_470.213076_24
+>NODE_32_length_88662_cov_470.213076_25
+>NODE_32_length_88662_cov_470.213076_28
+>NODE_32_length_88662_cov_470.213076_29
+>NODE_32_length_88662_cov_470.213076_3
+>NODE_32_length_88662_cov_470.213076_30
+>NODE_32_length_88662_cov_470.213076_33
+>NODE_32_length_88662_cov_470.213076_34
+>NODE_32_length_88662_cov_470.213076_36
+>NODE_32_length_88662_cov_470.213076_38
+>NODE_32_length_88662_cov_470.213076_39
+>NODE_32_length_88662_cov_470.213076_4
+>NODE_32_length_88662_cov_470.213076_41
+>NODE_32_length_88662_cov_470.213076_42
+>NODE_32_length_88662_cov_470.213076_43
+>NODE_32_length_88662_cov_470.213076_44
+>NODE_32_length_88662_cov_470.213076_46
+>NODE_32_length_88662_cov_470.213076_47
+>NODE_32_length_88662_cov_470.213076_48
+>NODE_32_length_88662_cov_470.213076_49
+>NODE_32_length_88662_cov_470.213076_5
+>NODE_32_length_88662_cov_470.213076_50
+>NODE_32_length_88662_cov_470.213076_52
+>NODE_32_length_88662_cov_470.213076_55
+>NODE_32_length_88662_cov_470.213076_56
+>NODE_32_length_88662_cov_470.213076_57
+>NODE_32_length_88662_cov_470.213076_58
+>NODE_32_length_88662_cov_470.213076_59
+>NODE_32_length_88662_cov_470.213076_6
+>NODE_32_length_88662_cov_470.213076_60
+>NODE_32_length_88662_cov_470.213076_61
+>NODE_32_length_88662_cov_470.213076_62
+>NODE_32_length_88662_cov_470.213076_63
+>NODE_32_length_88662_cov_470.213076_64
+>NODE_32_length_88662_cov_470.213076_65
+>NODE_32_length_88662_cov_470.213076_66
+>NODE_32_length_88662_cov_470.213076_68
+>NODE_32_length_88662_cov_470.213076_69
+>NODE_32_length_88662_cov_470.213076_7
+>NODE_32_length_88662_cov_470.213076_70
+>NODE_32_length_88662_cov_470.213076_71
+>NODE_32_length_88662_cov_470.213076_72
+>NODE_32_length_88662_cov_470.213076_73
+>NODE_32_length_88662_cov_470.213076_8
+>NODE_32_length_88662_cov_470.213076_9

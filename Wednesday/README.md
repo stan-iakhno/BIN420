@@ -1,7 +1,7 @@
 # Prepare transcripts database
 
 # Go to the folder where the bins are
-
+```
 for i in *.fa; do j=`echo $i | awk -F"." '{print $2}'`; awk -v var=$j '/>/{print substr($1, 2, length($1))"\t"var}' $i >> bin_map.txt; done
 awk '{a++; if(a>1) print $1}' annotations.txt | awk -F"_" '{a[$0"\t"$1"_"$2"_"$3"_"$4"_"$5"_"$6]=1}END{for(i in a)print i}' > ORF_contig.txt
 awk -F"\t" 'NR==NRF{a[$1]=$2; next} {print $0"\t"a[$2]}' bin_map.txt ORF_contig.txt > ORF_contig_bin.txt
@@ -11,12 +11,12 @@ awk '{if($1~/^>/){print header"\n"seq; header=$1; seq=""} else seq=seq""$1}END{p
 
 kallisto index -i genes.fna.kallisto_index --make-unique genes.fna
 
-
+```
 ## Quantify transcripts
-
+```
 cd ~
 mkdir kallisto
-
+```
 # Build sbatch file (e.g. quantifier.sh):
 
 ```
@@ -51,11 +51,12 @@ mkdir kallisto
 	kallisto quant --index=$path1/genes.fna.kallisto_index --output=$path2/$r3 --plaintext $r1 $r2
 
 ```
+# submit the job
+```
+sbatch quantifier.sh
 
-|sbatch quantifier.sh|
-
-|ls -lh kallisto/t2A| # Check presence and size (if it is 0 something went wrong) of an abundance table.
-
+ls -lh kallisto/t2A # Check presence and size (if it is 0 something went wrong) of an abundance table.
+```
 # Merge TPM tables into one
 ```
 cd kallisto
@@ -65,4 +66,4 @@ cat header.tsv transcript_tpms_all_samples.tsv | grep -v "tpm" > transcript_tpms
 mv transcript_tpms_all_samples.tsv2 kallisto_tpms_7x3.tsv
 rm -f header.tsv
 rv transcript_tpms_all_samples.tsv
-	```
+```

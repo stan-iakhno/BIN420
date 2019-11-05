@@ -1,4 +1,4 @@
-#Metagenome assemby 
+# Metagenome assemby 
 by Francesco  Delogu
 
 The folder /mnt/SCRATCH/defr is a copy of what your folder should look like at the end of the practical session. There you can find sbatch files, data and results if you need them.

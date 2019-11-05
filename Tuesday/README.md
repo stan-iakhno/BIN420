@@ -287,10 +287,10 @@ library(microseq)
 
 ## Read annotations_mini.txt
 annot.tbl <- suppressMessages(read_delim("~/tuesday/annotations_mini.txt", delim = "\t"))|
-
+```
 We notice there are 84 rows, i.e. 16 out of the 100 genes in the mini
 data set were not annotated. Let us locate these genes in the |prodigal| output. We read the GFF table produced by |prodigal|:
-
+```
 readGFF("~/tuesday/prodigal/table_nostops_mini.gff") %>% 
   mutate(ID = word(Attributes, 1, 1, sep = ";")) %>% 
   mutate(Tag = str_c(Seqid, str_remove(ID, "ID=[0-9]+"))) %>% 

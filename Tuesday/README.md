@@ -4,10 +4,7 @@ file:///C:/Users/stia/OneDrive%20-%20Norwegian%20University%20of%20Life%20Scienc
 
 ```
 
-  BIN420 - Tuesday morning
-
-
-        /Lars Snipen/
+  BIN420 - Tuesday morning by /Lars Snipen/
 
 
   1 Predicting genes with |prodigal|
@@ -122,8 +119,9 @@ ffn.tbl %>%
 gff.tbl %>% 
   filter(!has.stop.inside) %>%                               ## same filtering as above
   writeGFF(out.file = "prodigal/table_nostops.gff")|
-```
+
 # gff.table written to prodigal/table_nostops.gff
+```
 
 Make a new R script (*File - New File - R Script*) and copy the code
 into it. Save it in your |$HOME/tuesday| folder.
@@ -391,11 +389,11 @@ p4 <- ggplot(prdgl.tbl, aes(x = Contig.length, y = Total.score)) +
   scale_x_log10() + scale_y_log10() +
   facet_wrap(~Annotated, nrow = 1)
 print(p4)|
-```
+
 
 # `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")`
 
-
+```
 The main trend is as expected, shorter contigs produce less reliable
 gene predictions, and a large number of un-annotated genes, even if
 there are a good number of exceptions. Having longer contigs would most

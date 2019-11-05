@@ -8,7 +8,7 @@ awk -F"\t" 'NR==NRF{a[$1]=$2; next} {print $0"\t"a[$2]}' bin_map.txt ORF_contig.
 
 awk '{if($1~/^>/){print header"\n"seq; header=$1; seq=""} else seq=seq""$1}END{print header"\n"seq}' nostops.ffn | awk '{a++; if(a>2)print $0}' > nostops_2lines.ffn 
 
-
+module add kallisto
 kallisto index -i genes.fna.kallisto_index --make-unique genes.fna
 
 ```

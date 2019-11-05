@@ -4,10 +4,7 @@ file:///C:/Users/stia/OneDrive%20-%20Norwegian%20University%20of%20Life%20Scienc
 
 ```
 
-  BIN420 - Tuesday morning
-
-
-        /Lars Snipen/
+  BIN420 - Tuesday morning by /Lars Snipen/
 
 
   1 Predicting genes with |prodigal|
@@ -103,16 +100,15 @@ library(tidyverse)
 library(microseq)
 setwd("~/tuesday")
 ```
-## Reading files
+Reading files
 ```
 ffn.tbl <- readFasta("prodigal/coding.ffn")                  ## reads coding file
 gff.tbl <- readGFF("prodigal/table.gff")                     ## reads GFF file
 faa.tbl <- readFasta("prodigal/proteins.faa") %>%            ## reads protein file
   mutate(Sequence = str_remove(Sequence, "\\*$"))            ## remove * at the ends
-```
 
-## Filtering out genes with stop codon inside (if any)
-```
+#Filtering out genes with stop codon inside (if any)
+
 has.stop.inside <- str_detect(faa.tbl$Sequence, "\\*")       ## detects proteins with *
 faa.tbl %>% 
   filter(!has.stop.inside) %>%                               ## discards proteins with *
@@ -123,9 +119,10 @@ ffn.tbl %>%
 gff.tbl %>% 
   filter(!has.stop.inside) %>%                               ## same filtering as above
   writeGFF(out.file = "prodigal/table_nostops.gff")|
+
+# gff.table written to prodigal/table_nostops.gff
 ```
-|## [1] "gff.table written to prodigal/table_nostops.gff"|
-```
+
 Make a new R script (*File - New File - R Script*) and copy the code
 into it. Save it in your |$HOME/tuesday| folder.
 
@@ -140,8 +137,11 @@ There is one last piece of code that we want to add to the script above.
 Let us output also a small subset of 100 proteins. This we need below,
 to test the software |interproscan| that we will use for annotation. The annotations by |interproscan| takes some time, and it is nice to have a mini data set for testing
 first. Add these lines to the script above, and re-run:
+
+
+
 ```
-|faa.tbl %>% 
+faa.tbl %>% 
   filter(!has.stop.inside) %>% 
   slice(1:100) %>%
   writeFasta(out.file = "prodigal/proteins_nostops_mini.faa")
@@ -152,9 +152,9 @@ ffn.tbl %>%
 gff.tbl %>% 
   filter(!has.stop.inside) %>% 
   slice(1:100) %>%
-  writeGFF(out.file = "prodigal/table_nostops_mini.gff")|
-```
+  writeGFF(out.file = "prodigal/table_nostops_mini.gff")
 
+```
 
 
 
@@ -170,7 +170,7 @@ You will hear more about annotations after lunch, but since the |interproscan| t
 
 Here is a small shell script for running |interproscan|, using our mini protein file from above:
 ```
-|#!/bin/bash
+#!/bin/bash
 #SBATCH --ntasks=1               # Number of cores (CPUs, threads)
 #SBATCH --job-name=iprscan      # Sensible name for the job
 #SBATCH --nodes=1                # We *always* use 1 node
@@ -232,7 +232,7 @@ we seek is ‘buried’ inside longer texts We would like to have a table where
   * Only columns of some interest are displayed (GO-terms, KEGG-terms etc)
 
 Here is some R code for converting the |.gff3| file into such a table:
-
+```
 |library(tidyverse)
 library(microseq)
 setwd("~/tuesday")
@@ -262,6 +262,7 @@ readGFF(infile) %>%
             KEGG.terms = str_c(str_replace_na(unique(unlist(KEGG.terms))), collapse = ",")) %>% 
   mutate_all(str_remove_all, ",NA|NA,") -> annotation.tbl
 write_delim(annotation.tbl, path = outfile, delim = "\t")|
+```
 
 Make a new R script, copy this code, and save it as |gff2annotations.R| in your |$HOME/tuesday| folder. Run the script. A small file named |annotations_mini.txt| should appear in your |$HOME/tuesday| folder. We may also inspect the table directly in RStudio.
 
@@ -280,39 +281,42 @@ time before lunch.
 
 Let us have a look at the results from the mini data set. We read the
 annotations into R again, as if we started a new R session:
-
-|library(tidyverse)
+```
+library(tidyverse)
 library(microseq)
 
 ## Read annotations_mini.txt
 annot.tbl <- suppressMessages(read_delim("~/tuesday/annotations_mini.txt", delim = "\t"))|
-
+```
 We notice there are 84 rows, i.e. 16 out of the 100 genes in the mini
 data set were not annotated. Let us locate these genes in the |prodigal| output. We read the GFF table produced by |prodigal|:
-
-|readGFF("~/tuesday/prodigal/table_nostops_mini.gff") %>% 
+```
+readGFF("~/tuesday/prodigal/table_nostops_mini.gff") %>% 
   mutate(ID = word(Attributes, 1, 1, sep = ";")) %>% 
   mutate(Tag = str_c(Seqid, str_remove(ID, "ID=[0-9]+"))) %>% 
   select(-ID) %>% 
-  arrange(desc(Score)) -> prdgl.tbl|
-
+  arrange(desc(Score)) -> prdgl.tbl
+```
 Here we also made two new columns, the |ID| and the |Tag|, then we de-selected the former. The |Tag| column is needed shortly. We also sorted the genes by their |Score|. This is the score given by |prodigal|, and the higher score value, the more confident we should be in this
 really being a gene (according to the |prodigal| algorithm).
 
 Let us now add another column, indicating if the gene was annotated.
 This is where we need the |Tag| information, because we need to match this to the |Seqid| column of the |annot.tbl| (which is /not/ the same as the |Seqid| column in the |prdgl.tbl|):
 
-|prdgl.tbl %>% 
+```
+prdgl.tbl %>% 
   mutate(Annotated = Tag %in% annot.tbl$Seqid) %>% 
   mutate(Length = abs(Start - End) + 1) -> prdgl.tbl|
-
+```
 We also added the column |Length|, which is simply the length of the gene (in bases, and including the
 stop codon). From this table, we make a plot
 
-|p1 <- ggplot(prdgl.tbl) +
+```
+p1 <- ggplot(prdgl.tbl) +
   geom_point(aes(x = Score, y = Length, color = Annotated), size = 3, alpha = 0.5) +
   labs(x = "Prodigal score", y = "Gene length")
-print(p1)|
+print(p1)
+```
 
 We clearly see the un-annotated genes tend to have lower scores. Also,
 this score is highly correlated with gene length.
@@ -323,8 +327,8 @@ this score is highly correlated with gene length.
 The |prodigal| also outputs a |.gff| file, which is a table with one row for each predicted gene (protein).
 Let us read this into R, the full table this time, and have a look at
 its content:
-
-|library(tidyverse)
+```
+library(tidyverse)
 library(microseq)
 
 readGFF("~/tuesday/prodigal/table_nostops.gff") %>% 
@@ -337,7 +341,8 @@ readGFF("~/tuesday/prodigal/table_nostops.gff") %>%
   mutate(Tag = str_c(Seqid, str_remove(ID, "ID=[0-9]+"))) %>% 
   select(-c(ID, Partial, RBS.spacer, rscore, uscore, tscore, empty)) %>% 
   mutate_at(9:15, str_remove, "^.+=") %>% 
-  mutate_at(11:15, as.numeric) -> prdgl.tbl|
+  mutate_at(11:15, as.numeric) -> prdgl.tbl
+  ```
 
 After reading the file, we extracted the length and K-mer coverage for
 each contig, which is always part of the contig headers from |spades|. Next, we split the |Attributes| column (last column) of the GFF format into new columns by the
@@ -348,25 +353,28 @@ converting to numeric). Open the table in the RStudio viewer for inspection.
 We have more than 22 000 predicted genes, from a long range of contigs.
 Let us plot the |Total.score| for each gene against the |Contig.length|, i.e. the length of the contig where the gene is found:
 
-|p2 <- ggplot(prdgl.tbl, aes(x = Contig.length, y = Total.score)) +
+```
+p2 <- ggplot(prdgl.tbl, aes(x = Contig.length, y = Total.score)) +
   geom_point(alpha = 0.3) +
   geom_smooth() +
   scale_x_log10() + scale_y_log10()
-print(p2)|
-
-|## `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'|
+print(p2)
+```
+## `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'|
 
 Note that both axes are log-transformed. We clearly see that genes from
 shorter contigs tend to have a lower |prodigal| score, which means they are less reliable. There are also a large
 number of short contigs, as usual from Illumina data:
 
-|prdgl.tbl %>% 
+```
+prdgl.tbl %>% 
   distinct(Seqid, .keep_all = T) %>% 
   ggplot() +
   geom_histogram(aes(x = Contig.length), bins = 50) +
   scale_x_log10() +
   labs(x = "Contig length", y = "Number of contigs") -> p3
-print(p3)|
+print(p3)
+```
 
 Once we have the annotation table for all genes (from |interproscan|) we may again mark which genes were annotated, and then add some color
 to the plot from above:
@@ -381,11 +389,11 @@ p4 <- ggplot(prdgl.tbl, aes(x = Contig.length, y = Total.score)) +
   scale_x_log10() + scale_y_log10() +
   facet_wrap(~Annotated, nrow = 1)
 print(p4)|
-```
-```
-## `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'
-``` 
 
+
+# `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")`
+
+```
 The main trend is as expected, shorter contigs produce less reliable
 gene predictions, and a large number of un-annotated genes, even if
 there are a good number of exceptions. Having longer contigs would most

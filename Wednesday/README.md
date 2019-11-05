@@ -1,6 +1,6 @@
 # Prepare transcripts database
 
-# Go to the folder where the bins are
+## Go to the folder where the bins are
 ```
 for i in *.fa; do j=`echo $i | awk -F"." '{print $2}'`; awk -v var=$j '/>/{print substr($1, 2, length($1))"\t"var}' $i >> bin_map.txt; done
 awk '{a++; if(a>1) print $1}' annotations.txt | awk -F"_" '{a[$0"\t"$1"_"$2"_"$3"_"$4"_"$5"_"$6]=1}END{for(i in a)print i}' > ORF_contig.txt

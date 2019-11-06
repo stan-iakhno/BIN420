@@ -23,34 +23,33 @@ mkdir kallisto
 ```
 	#!/bin/bash
 
-	#SBATCH -N 1
-	#SBATCH -J kallisto
-	#SBATCH -c 8
-	#SBATCH -a 1-21
+        #SBATCH -N 1
+        #SBATCH -J kallisto
+        #SBATCH -c 8
+        #SBATCH -a 1-21
 
-	path0='~/data'
-	path1='/mnt/project/Courses/BIN420-2019/Day3_MTandNetAnalysis/data'
-	path2='~/kallisto'
+        path1='/mnt/project/Courses/BIN420-2019/Day3_MTandNetAnalysis/data/'
+        path0='/mnt/users/student54/BIN420/Wednesday'
+        path2='~/kallisto'
 
-	module add kallisto
-	
-	i=$(( SLURM_ARRAY_TASK_ID - 1 ))
+        module add kallisto
 
-	i1=$(( i * 2 ))
-	i2=$(( i1 + 1 ))
+        i=$(( SLURM_ARRAY_TASK_ID - 1 ))
 
-	a=(`ls $path0/*.fastq`)
+        i1=$(( i * 2 ))
+        i2=$(( i1 + 1 ))
 
-	r1=${a[@]:$i1:1}
-	r2=${a[@]:$i2:1}
-	r3=`echo $r2 | awk -F"/|_" '{print $9}'`
+        a=(`ls $path0/*.fastq`)
 
-	# Remember to build the index first! 
+        r1=${a[@]:$i1:1}
+        r2=${a[@]:$i2:1}
+        r3=`echo $r2 | awk -F"/|_" '{print $9}'`
 
-	mkdir $path2/$r3
+        # Remember to build the index first!
 
-	kallisto quant --index=$path1/genes.fna.kallisto_index --output=$path2/$r3 --plaintext $r1 $r2
+        mkdir $path2/$r3
 
+        kallisto quant --index=$path1/genes.fna.kallisto_index --output=$path2/$r3 --plaintext $r1 $r2
 ```
 ### submit the job
 ```

@@ -30,7 +30,7 @@ mkdir kallisto
 
         path1='/mnt/project/Courses/BIN420-2019/Day3_MTandNetAnalysis/data/'
         path0='/mnt/users/student54/BIN420/Wednesday'
-        path2='~/kallisto'
+        path2='/mnt/users/student54/kallisto'
 
         module add kallisto
 
@@ -39,7 +39,7 @@ mkdir kallisto
         i1=$(( i * 2 ))
         i2=$(( i1 + 1 ))
 
-        a=(`ls $path0/*.fastq`)
+        a=(`ls $path1/*.fastq`)
 
         r1=${a[@]:$i1:1}
         r2=${a[@]:$i2:1}
@@ -49,7 +49,7 @@ mkdir kallisto
 
         mkdir $path2/$r3
 
-        kallisto quant --index=$path1/genes.fna.kallisto_index --output=$path2/$r3 --plaintext $r1 $r2
+        kallisto quant --index=$path0/genes.fna.kallisto_index --output=$path2/$r3 --plaintext $r1 $r2
 ```
 ### submit the job
 ```

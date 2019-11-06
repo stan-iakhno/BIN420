@@ -1,4 +1,5 @@
 # Quantifying abundances of transcripts using Kallisto
+by Francesco Delongu
 ## Prepare transcripts database
 
 ### Go to the folder where the bins are

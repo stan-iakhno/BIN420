@@ -60,10 +60,10 @@ ls -lh kallisto/t2A # Check presence and size (if it is 0 something went wrong) 
 ### Merge TPM tables into one
 ```
 cd kallisto
-ls -1 */abundance.tsv | perl -ne 'chomp $_; if ($_ =~ /(\S+)\/abundance\.tsv/){print "\t$1"}' | perl -ne 'print "target_id\tlength$_\n"' > header.tsv
+ls -l */abundance.tsv | perl -ne 'chomp $_; if ($_ =~ /(\S+)\/abundance\.tsv/){print "\t$1"}' | perl -ne 'print "target_id\tlength$_\n"' > header.tsv
 paste */abundance.tsv | cut -f 1,2,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105 > transcript_tpms_all_samples.tsv
 cat header.tsv transcript_tpms_all_samples.tsv | grep -v "tpm" > transcript_tpms_all_samples.tsv2
 mv transcript_tpms_all_samples.tsv2 kallisto_tpms_7x3.tsv
 rm -f header.tsv
-rv transcript_tpms_all_samples.tsv
+rm transcript_tpms_all_samples.tsv
 ```

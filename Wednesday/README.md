@@ -7,6 +7,7 @@ awk '{a++; if(a>1) print $1}' annotations.txt | awk -F"_" '{a[$0"\t"$1"_"$2"_"$3
 awk -F"\t" 'NR==NRF{a[$1]=$2; next} {print $0"\t"a[$2]}' bin_map.txt ORF_contig.txt > ORF_contig_bin.txt
 
 awk '{if($1~/^>/){print header"\n"seq; header=$1; seq=""} else seq=seq""$1}END{print header"\n"seq}' nostops.ffn | awk '{a++; if(a>2)print $0}' > nostops_2lines.ffn 
+awk 'NR==FNR{a[">"$1]=1; next} {if(a[$1]==1){print $1; getline; print $1}}' ORF_contig_bin.txt nostops_2lines.ffn > genes.fna
 
 module add kallisto
 kallisto index -i genes.fna.kallisto_index --make-unique genes.fna

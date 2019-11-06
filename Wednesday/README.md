@@ -1,3 +1,4 @@
+# kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads
 ## Prepare transcripts database
 
 ### Go to the folder where the bins are
